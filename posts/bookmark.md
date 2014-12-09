@@ -8,7 +8,7 @@ title : Ruby関係ブックマーク
 ### Ruby
 
 * [プログラミング言語Ruby リファレンスマニュアル](http://docs.ruby-lang.org/ja/)
-* [ミニツク](http://www.minituku.net/)
+* [ミニツク](http://www.minituku.net/) ※Rubyのe-Learning
 
 ### RSpec
 
