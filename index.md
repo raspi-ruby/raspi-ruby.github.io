@@ -9,4 +9,5 @@ title : Raspiトップページ
 
 ### ブックマーク
 
-* [Ruby関係ブックマーク](/posts/bookmark.html)
+* [Ruby関係ブックマーク](/posts/bookmark-ruby.html)
+* [GitHub関係ブックマーク](/posts/bookmark-github.html)
