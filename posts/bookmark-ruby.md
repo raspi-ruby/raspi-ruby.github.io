@@ -9,6 +9,7 @@ title : Ruby関係ブックマーク
 
 * [プログラミング言語Ruby リファレンスマニュアル](http://docs.ruby-lang.org/ja/)
 * [ミニツク](http://www.minituku.net/) ※Rubyのe-Learning
+* [やわらかRuby](https://gist.github.com/udzura/7548163)
 
 ### RSpec
 
