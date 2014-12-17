@@ -5,6 +5,7 @@ title : Raspiトップページ
 
 ### ドキュメント
 
+* [Raspbianセットアップ](/posts/raspbian-setup.md)
 * [Raspberry Pi+Ruby 準備](/posts/raspi-ruby-prepare.html)
 
 ### ブックマーク
