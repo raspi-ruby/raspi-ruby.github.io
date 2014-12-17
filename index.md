@@ -8,6 +8,8 @@ title : Raspiトップページ
 暫定です。  
 色々やっていく中で見直していきます。
 
+---
+
 #### バージョン指定
 
 * Raspbian GNU/Linux 7 (wheezy)
