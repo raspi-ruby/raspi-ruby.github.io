@@ -68,13 +68,13 @@ $ sudo gem install pry --no-rdoc --no-ri
 とりあえずRubyでLチカするスクリプトです。 
 Raspberry Piから以下を実行してみて下さい。
 
-```
+~~~
 $ cd ~ 
 $ git clone https://github.com/honeniq/raspi 
 $ cd raspi/led_blink 
 $ bundle install 
 $ sudo ruby led_blink.rb 
-```
+~~~
 
 #### やっている内容
 
