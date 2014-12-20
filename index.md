@@ -30,3 +30,4 @@ title : Raspiトップページ
 ### みんなのメモ
 
 * [tmykthr](/posts/kitahara_memo.html)
+* [Raspi GPIO shieldのピンアサイン](/posts/raspi_gpio_shield.html)
