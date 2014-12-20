@@ -62,3 +62,26 @@ Ruby用のREPL(Read-eval-print loop)。
 ```
 $ sudo gem install pry --no-rdoc --no-ri
 ```
+
+### Lチカお試し
+
+とりあえずRubyでLチカするスクリプトです。 
+Raspberry Piから以下を実行してみて下さい。
+
+```
+$ cd ~
+$ git clone https://github.com/honeniq/raspi
+$ cd raspi/led_blink
+$ bundle install
+$ sudo ruby led_blink.rb
+```
+
+#### やっている内容
+
+1. ``/home/pi``に移動
+2. GitHubからスクリプトを取ってくる
+3. 取ってきたスクリプトのディレクトリに移動
+4. 必要なプラグインを入れる(Bundlerが必要です)
+5. スクリプトを実行(Raspberry PiのGPIOを操作するのにroot権限が必要)
+
+スクリプト上でGPIO25番を決め打ちしているので、違うところを使いたい場合は変更して下さい。
