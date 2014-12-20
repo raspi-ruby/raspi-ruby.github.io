@@ -9,26 +9,26 @@ title: Raspberry Pi+Ruby 準備
 
 gemのビルドに必要。
 
-```
+~~~
 $ sudo apt-get install ruby-dev
-```
+~~~
 
 #### Vim
 
 Raspbianに最初から入っているviはtinyvimというショボいVimなので本物を入れる。
 
-```
+~~~
 $ sudo apt-get install vim
-```
+~~~
 
 
 #### screen
 
 ターミナルで複数画面を使えるようにする。
 
-```
+~~~
 $ sudo apt-get install screen
-```
+~~~
 
 ``screen``で起動。
 
@@ -47,9 +47,9 @@ $ sudo apt-get install screen
 プロジェクトごとにgemのバージョンやインストールの有無を分けてくれる。  
 依存関係の解決もBundlerに任せることが多い。
 
-```
+~~~
 $ sudo gem install bundler --no-rdoc --no-ri
-```
+~~~
 
 
 #### Pry
@@ -59,9 +59,9 @@ $ sudo gem install bundler --no-rdoc --no-ri
 Ruby用のREPL(Read-eval-print loop)。  
 最初から入っているIRBよりも高機能。
 
-```
+~~~
 $ sudo gem install pry --no-rdoc --no-ri
-```
+~~~
 
 ### Lチカお試し
 
