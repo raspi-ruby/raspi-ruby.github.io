@@ -48,6 +48,18 @@ Raspbianを選択して、あとは待つだけ。
 2. 2GBちょいダウンロードするので、コーヒーでも飲んで待ちましょう
 3. イメージのインストールが終わると再起動が掛かります
 
+#### キーボード設定
+
+初期設定では英語キーボードになっているので、ここだけは変えておきましょう。
+
+1. 4.Internationalization Options
+2. L3 Keyboard Layout
+3. Generic 105 Key
+4. Other
+5. Japanese
+6. OADG109A
+
+
 ### 最初の一歩
 
 初期状態のRaspbianはCUIで立ち上がります。
