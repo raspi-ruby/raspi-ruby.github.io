@@ -52,7 +52,7 @@ Raspbianを選択して、あとは待つだけ。
 
 初期設定では英語キーボードになっているので、ここだけは変えておきましょう。
 
-1. 4.Internationalization Options
+1. Internationalization Options
 2. L3 Keyboard Layout
 3. Generic 105 Key
 4. Other

@@ -24,3 +24,9 @@ title : Raspiトップページ
 
 * [Ruby関係ブックマーク](/posts/bookmark-ruby.html)
 * [GitHub関係ブックマーク](/posts/bookmark-github.html)
+
+---
+
+### みんなのメモ
+
+* [tmykthr](/posts/kitahara_memo.html)
