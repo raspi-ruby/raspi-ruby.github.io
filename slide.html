@@ -24,8 +24,11 @@
     <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript">
     </script>
     <script type="text/javascript">
+      var query = window.location.search.substring(1);
       var slideshow = remark.create({
-        sourceUrl: '../slides/test.md'
+        sourceUrl: query ? "slides/" + query : "slides/test.md",
+        highlightStyle: 'default',
+        highlightLanguage: 'rb'
       });
     </script>
   </body>
