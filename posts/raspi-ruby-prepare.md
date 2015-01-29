@@ -38,9 +38,7 @@ $ sudo apt-get install screen
 
 ---
 
-### 必須gemを入れる
-
-#### Bundler
+### Bundler
 
 [Bundler](http://bundler.io/)
 
@@ -51,8 +49,24 @@ $ sudo apt-get install screen
 $ sudo gem install bundler --no-rdoc --no-ri
 ~~~
 
+プロジェクトのルートに``Gemfile``というファイルを置いておいた状態で``bundle install``すると、そのプロジェクト専用にGemをインストールしてくれます。  
+特定のバージョンに固定したかったり、システムのGemを汚したくないときに便利。
 
-#### Pry
+~~~ruby
+source 'https://rubygems.org'
+
+gem 'nokogiri'
+~~~
+
+こんな感じで``Gemfile``を書いて、
+
+~~~shellscript
+
+~~~
+
+---
+
+### Pry
 
 [pry/pry](https://github.com/pry/pry)
 
@@ -62,6 +76,18 @@ Ruby用のREPL(Read-eval-print loop)。
 ~~~
 $ sudo gem install pry --no-rdoc --no-ri
 ~~~
+
+ソースに``require``で取り込んで、``binding.pry``を呼ぶと、スクリプト実行途中でPryに制御を移すことができます。
+
+~~~ruby
+require 'pry'
+
+data = %w['Taro', 'Jiro', 'Saburo']
+data.each do |name|
+  binding.pry
+end
+~~~
+
 
 ### Lチカお試し
 
