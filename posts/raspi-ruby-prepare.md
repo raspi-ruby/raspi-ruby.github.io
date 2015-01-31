@@ -55,13 +55,22 @@ $ sudo gem install bundler --no-rdoc --no-ri
 ~~~ruby
 source 'https://rubygems.org'
 
-gem 'nokogiri'
+gem 'pry'
 ~~~
 
-こんな感じで``Gemfile``を書いて、
+こんな感じで``Gemfile``を書いて、``bundle install``でGemがインストールされます。
 
 ~~~shellscript
-
+$ bundle install
+Fetching gem metadata from https://rubygems.org/..........
+Resolving dependencies...
+Installing coderay 1.1.0
+Installing method_source 0.8.2
+Installing slop 3.6.0
+Installing pry 0.10.1
+Using bundler 1.7.12
+Your bundle is complete!
+Use `bundle show [gemname]` to see where a bundled gem is installed.
 ~~~
 
 ---
