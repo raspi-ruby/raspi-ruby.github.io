@@ -97,6 +97,7 @@ data.each do |name|
 end
 ~~~
 
+---
 
 ### Lチカお試し
 
