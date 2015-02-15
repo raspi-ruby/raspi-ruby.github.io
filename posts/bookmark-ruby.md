@@ -22,3 +22,7 @@ title : Ruby関係ブックマーク
 * [ライブラリ](https://www.ruby-lang.org/ja/libraries/) ※RubyGemsについての説明
 * [ツールを使いたいだけの人のための bundler 入門 (例: vagrant + veewee)](http://qiitaO.com/znz/items/5471e5826fde29fa9a80)
 * [Rubyist Magazine](http://magazine.rubyist.net/)
+
+### Tips
+
+* [RubyやRailsでリファクタリングに使えそうなイディオムとか便利メソッドとか](http://qiita.com/jnchito/items/dedb3b889ab226933ccf)
